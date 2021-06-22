@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(241, 245, 244);
+    color: rgb(37, 34, 34);
+    font-family: 'Grifin';
+    font-size: 20px;
+    font-weight: lighter;
+}
+h1, h2{
+    color: red;
+    font-size: 30px;
+    line-height: 25px;
+}
+a:hover{
+    color: black;
+    text-decoration:black;
+
+}
+.img1 {
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+}
+.container{
+    width: 700px;
+    margin: 40px auto;
+
+}
+.block1, .block2{
+    background-color:white;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+
+}
+.block2 ul li{
+    display: inline;
+    font-size: 40px;
+    padding-left: 0;
+    list-style: none;
+    margin-right: 25px;
+    color: gray;
+}
+
+
+.button{
+    background-color:darkblue;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+p{
+    margin-bottom: 40px;
+}
+.menu{
+    color: rgb(42, 85, 114);
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+.menu ul li {
+    margin-left: 20px
+}
